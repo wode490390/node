@@ -87,7 +87,7 @@
     'msvs_settings': {
       'VCCLCompilerTool': {
         'StringPooling': 'true', # pool string literals
-        'DebugInformationFormat': 3, # Generate a PDB
+        'DebugInformationFormat': 0, # Generate a PDB
         'WarningLevel': 3,
         'BufferSecurityCheck': 'true',
         'ExceptionHandling': 1, # /EHsc

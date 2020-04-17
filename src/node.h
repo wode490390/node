@@ -414,7 +414,7 @@ extern "C" NODE_EXTERN void node_module_register(void* mod);
 #ifdef NODE_SHARED_MODE
 # define NODE_CTOR_PREFIX
 #else
-# define NODE_CTOR_PREFIX static
+# define NODE_CTOR_PREFIX
 #endif
 
 #if defined(_MSC_VER)
